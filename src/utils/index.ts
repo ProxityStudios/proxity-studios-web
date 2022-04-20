@@ -1,0 +1,1 @@
+export * as CDN from "./cdn"
