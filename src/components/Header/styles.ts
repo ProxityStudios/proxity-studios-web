@@ -6,7 +6,7 @@ export const Header = Styled.header`
      align-items: center;
      background-color: #222;
      color: #fff;
-     padding: 0 20px;
+     padding: 0 50px;
      height: 60px;
      overflow: hidden;
      border-bottom-left-radius: 10px;

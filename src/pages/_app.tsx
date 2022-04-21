@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from '../global/theme';
 import GlobalStyles from '../global/styles';
 import Head from 'next/head';
-import { DynamicHeaderComponent } from '../components';
+import { DynamicFooterComponent, DynamicHeaderComponent } from '../components';
 
 function ProxityStudiosApp({ Component, pageProps }: AppProps) {
   return (
@@ -18,6 +18,8 @@ function ProxityStudiosApp({ Component, pageProps }: AppProps) {
       {/* getLayout(); */}
       <DynamicHeaderComponent /> 
       <Component {...pageProps} />
+      <DynamicFooterComponent /> 
+
     </ThemeProvider>
   );
 }
