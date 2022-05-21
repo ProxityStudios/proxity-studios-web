@@ -5,7 +5,7 @@ type FooterComponentProps = {};
 
 const FooterComponent: FC<FooterComponentProps> = () => {
      return <Footer>
-          &copy; {new Date().getFullYear()} Proxity Studios
+          Copyright &copy; {new Date().getFullYear()} Proxity Studios Inc. All rights reserved.
      </Footer>
 }
 
