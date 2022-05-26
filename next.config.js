@@ -17,8 +17,8 @@ module.exports = {
 				permanent: true
 			},
                         {
-                               source: '/support-center'
-                               destination: 'https://discord.gg/wrhwwJQwas'
+                               source: '/support-center',
+                               destination: 'https://discord.gg/wrhwwJQwas',
                                permanent: true
                         }
 		];
